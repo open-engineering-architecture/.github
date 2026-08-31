@@ -490,7 +490,7 @@ Open Engineering treats software engineering as more than producing source code.
 
 It connects:
 
-meaning → architecture → definitions → composition → implementation → runtime → evidence → learning
+`meaning → architecture → definitions → composition → implementation → runtime → evidence → learning`
 
 Architecture provides the map connecting those worlds.
 
