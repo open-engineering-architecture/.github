@@ -1,4 +1,4 @@
-Open Engineering Architecture
+# Open Engineering Architecture
 
 <p align="center">
   <img src="../assets/hero-banner.png" alt="Open Engineering Architecture" width="100%">
@@ -9,7 +9,7 @@ Open Engineering Architecture
 
 ⸻
 
-Architecture as a First-Class Artifact
+## Architecture as a First-Class Artifact
 
 Open Engineering Architecture is the architectural home of the Open Engineering ecosystem.
 
@@ -18,7 +18,7 @@ It describes how Open Engineering is structured, how its parts relate to one ano
 Architecture here is not merely a collection of diagrams.
 
 It is an executable body of knowledge connecting intent, structure, decisions, models, systems, and runtime reality.
-
+```
 Intent
   ↓
 Architecture
@@ -33,16 +33,16 @@ Runtime
   ↓
 Observations
   └──────────────→ Architecture
-
+```
 The architecture therefore forms part of a continuous engineering feedback loop.
 
 ⸻
 
-The Four Dimensions
+## The Four Dimensions
 
 Open Engineering describes its architecture through four complementary dimensions.
 
-1. Ontology
+### 1. Ontology
 
 What things mean.
 
@@ -59,17 +59,17 @@ It answers questions such as:
 * How are these concepts related?
 
 The ontology gives the ecosystem a shared semantic foundation.
-
+```
 Concept
    │
    ├── meaning
    ├── relationships
    ├── constraints
    └── vocabulary
-
+```
 ⸻
 
-2. Product Model
+### 2. Product Model
 
 What things exist as products and capabilities.
 
@@ -98,14 +98,14 @@ What does Open Engineering provide?
 
 ⸻
 
-3. Systems of Record
+### 3. Systems of Record
 
 Where authoritative information lives.
 
 Open Engineering is deliberately distributed across repositories, schemas, packages, registries, documentation, and runtime systems.
 
 Architecture identifies which source is authoritative for which information.
-
+```
 Concept
     ↓
 Definition
@@ -115,12 +115,12 @@ Repository
 Artifact
     ↓
 Registry
-
+```
 This prevents architecture from becoming detached from the engineering artifacts it describes.
 
 ⸻
 
-4. Runtime Architecture
+### 4. Runtime Architecture
 
 How things actually work.
 
@@ -148,10 +148,10 @@ The Runtime Architecture connects conceptual architecture with operational reali
 
 ⸻
 
-Architectural Layers
+## Architectural Layers
 
 A useful way to understand Open Engineering is as a progression from meaning to execution.
-
+```
 ┌─────────────────────────────────────────────┐
 │                  Ontology                   │
 │           What does everything mean?       │
@@ -165,39 +165,40 @@ A useful way to understand Open Engineering is as a progression from meaning to 
 │             Runtime Architecture            │
 │             How does it execute?            │
 └─────────────────────────────────────────────┘
-
+```
 These are not isolated layers.
 
 They are different views of the same engineering system.
 
 ⸻
 
-Architectural Primitives
+## Architectural Primitives
 
 At the heart of Open Engineering is a small set of reusable architectural primitives.
 
-Primitive	Responsibility
-Observation	Capture what is happening
-Investigation	Understand what was observed
-Execution	Perform an action
-Events	Represent meaningful occurrences
-Messaging	Exchange information
-Workflow	Coordinate activities
-Memory	Retain useful context
-Evidence	Support claims and conclusions
-Reporting	Communicate findings and state
-Composition	Assemble capabilities into larger systems
+| Primitive | Responsibility |  
+| --- | --- |  
+| Observation | Capture what is happening |  
+| Investigation | Understand what was observed |  
+| Execution | Perform an action |  
+| Events | Represent meaningful occurrences |  
+| Messaging | Exchange information |  
+| Workflow | Coordinate activities |  
+| Memory | Retain useful context |  
+| Evidence | Support claims and conclusions |  
+| Reporting | Communicate findings and state |  
+| Composition | Assemble capabilities into larger systems |  
 
 Higher-level capabilities should preferably be composed from these primitives rather than introducing unnecessary new abstractions.
 
 ⸻
 
-From Architecture to Engineering
+## From Architecture to Engineering
 
 Architecture should lead somewhere.
 
 Open Engineering connects architectural intent to implementation through a traceable chain.
-
+```
 Architecture
      │
      ▼
@@ -217,7 +218,7 @@ Architecture
      │
      ▼
    Runtime
-
+```
 This allows architecture to become progressively machine-understandable.
 
 Instead of architecture existing only in documents, architectural knowledge can inform:
@@ -234,7 +235,7 @@ Instead of architecture existing only in documents, architectural knowledge can 
 
 ⸻
 
-Architecture Is Navigable
+## Architecture Is Navigable
 
 A large architecture should not require one enormous diagram.
 
@@ -243,7 +244,7 @@ Open Engineering favors views.
 A view answers a particular question for a particular audience.
 
 For example:
-
+```
 Open Engineering
        │
        ├── Ecosystem View
@@ -257,17 +258,17 @@ Open Engineering
        ├── Deployment View
        │
        └── Component View
-
+```
 Readers should be able to move from context into detail while retaining an understanding of where they are in the larger system.
 
 ⸻
 
-Architecture as Code
+## Architecture as Code
 
 Where practical, architectural information should be represented in structured, version-controlled forms.
 
 That includes:
-
+```
 architecture
 ├── models
 ├── views
@@ -276,7 +277,7 @@ architecture
 ├── relationships
 ├── schemas
 └── documentation
-
+```
 This makes architecture:
 
 * reviewable;
@@ -291,7 +292,7 @@ Diagrams become views generated from architectural knowledge, rather than the ar
 
 ⸻
 
-Visual Architecture
+#3 Visual Architecture
 
 Open Engineering favors architecture visualizations that help people explore systems rather than merely document them.
 
@@ -309,12 +310,12 @@ The architectural model is the durable asset.
 
 ⸻
 
-Architecture Decisions
+## Architecture Decisions
 
 Important architectural choices should be explicit.
 
 Architecture Decision Records capture:
-
+```
 Context
    ↓
 Problem
@@ -324,7 +325,7 @@ Options
 Decision
    ↓
 Consequences
-
+```
 An ADR is not simply a historical note.
 
 It provides evidence explaining why the architecture became what it is.
@@ -339,14 +340,14 @@ why it exists that way
 
 ⸻
 
-Architecture and AI
+## Architecture and AI
 
 Open Engineering is designed for an engineering environment in which humans and AI agents work together.
 
 That changes what architectural documentation needs to be.
 
 Architecture should be understandable by both.
-
+```
 Human
   │
   ├──────┐
@@ -356,7 +357,7 @@ Architecture
   ├──────┘
   │
 AI Agent
-
+```
 Structured architectural knowledge allows agents to reason about:
 
 * boundaries;
@@ -372,20 +373,20 @@ Architecture therefore becomes part of the context from which engineering agents
 
 ⸻
 
-The Architecture Feedback Loop
+#3 The Architecture Feedback Loop
 
-Architecture is never finished.
+### Architecture is never finished.
 
 Runtime systems generate observations.
 
-Observations generate evidence.
+### Observations generate evidence.
 
 Evidence may trigger investigations.
 
-Investigations may lead to decisions.
+### Investigations may lead to decisions.
 
 Decisions change architecture.
-
+```
 Architecture
      ↓
 Implementation
@@ -400,17 +401,17 @@ Investigation
      ↓
 Decision
      └──────────────→ Architecture
-
+```
 This is how Open Engineering keeps architecture connected to reality.
 
 ⸻
 
-Relationship to the Open Engineering Ecosystem
+## Relationship to the Open Engineering Ecosystem
 
 Open Engineering Architecture does not own every implementation.
 
 Instead, it describes how the ecosystem fits together.
-
+```
                     Open Engineering
                           │
                      Architecture
@@ -426,44 +427,44 @@ Instead, it describes how the ecosystem fits together.
                      └────┬────┘
                           │
                        Runtime
-
+```
 Individual Open Engineering organizations remain responsible for their respective domains.
 
 Architecture provides the shared map.
 
 ⸻
 
-Guiding Principles
+## Guiding Principles
 
 Open Engineering Architecture follows a small number of principles:
 
-Architecture explains relationships.
+### Architecture explains relationships.
 A catalog of components is not yet an architecture.
 
-Models precede diagrams.
+### Models precede diagrams.
 Diagrams are views onto architectural knowledge.
 
-Architecture is versioned.
+### Architecture is versioned.
 Architectural evolution should be visible through source control.
 
-Decisions are evidence.
+### Decisions are evidence.
 Important choices should retain their reasoning.
 
-Runtime informs architecture.
+### Runtime informs architecture.
 The deployed system is an important source of architectural truth.
 
-Views serve questions.
+### Views serve questions.
 Different audiences require different architectural perspectives.
 
-Machines are readers too.
+### Machines are readers too.
 Architectural knowledge should increasingly be structured so tools and agents can consume it.
 
-Architecture should enable engineering.
+### Architecture should enable engineering.
 Its purpose is not documentation for its own sake, but better decisions and better systems.
 
 ⸻
 
-Repository Philosophy
+## Repository Philosophy
 
 Repositories within this organization should represent durable architectural concerns rather than becoming a dumping ground for implementation details.
 
@@ -483,7 +484,7 @@ Implementation should remain close to the product or capability that owns it.
 
 ⸻
 
-Open Engineering
+## Open Engineering
 
 Open Engineering treats software engineering as more than producing source code.
 
