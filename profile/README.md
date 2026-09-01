@@ -373,7 +373,7 @@ Architecture therefore becomes part of the context from which engineering agents
 
 ⸻
 
-#3 The Architecture Feedback Loop
+## The Architecture Feedback Loop
 
 ### Architecture is never finished.
 
