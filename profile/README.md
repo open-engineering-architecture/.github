@@ -154,7 +154,7 @@ A useful way to understand Open Engineering is as a progression from meaning to 
 ```
 ┌─────────────────────────────────────────────┐
 │                  Ontology                   │
-│           What does everything mean?       │
+│           What does everything mean?        │
 ├─────────────────────────────────────────────┤
 │               Product Model                 │
 │             What do we provide?             │
@@ -292,7 +292,7 @@ Diagrams become views generated from architectural knowledge, rather than the ar
 
 ⸻
 
-#3 Visual Architecture
+## Visual Architecture
 
 Open Engineering favors architecture visualizations that help people explore systems rather than merely document them.
 
